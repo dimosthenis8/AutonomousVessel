@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!-- Macro to insert the sandisland into the world -->
+<world xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="custom">
+    <scene>
+      <sky>
+      </sky>
+      <grid>0</grid>
+      <origin_visual>0</origin_visual>
+    </scene>
+    <!-- Estimated latitude/longitude of sandisland from satellite imagery -->
+
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    
+  
+  </xacro:macro>
+</world>
